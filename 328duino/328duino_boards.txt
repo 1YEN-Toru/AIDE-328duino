@@ -1,0 +1,73 @@
+# <Arduino IDE>\hardware\arduino\avr\boards.txt
+##############################################################
+
+328d.name=328duino
+
+328d.build.mcu=atmega328p
+328d.build.board=AVR_328DUINO
+328d.build.core=arduino
+328d.build.variant=standard
+
+328d.upload.tool=avrdude
+328d.upload.protocol=arduino
+328d.upload.maximum_size=32256
+328d.upload.maximum_data_size=2048
+328d.upload.speed=57600
+
+328d.bootloader.tool=avrdude
+328d.bootloader.extended_fuses=0xFE
+328d.bootloader.high_fuses=0xDE
+328d.bootloader.low_fuses=0xE2
+328d.bootloader.unlock_bits=0x3F
+328d.bootloader.lock_bits=0x3F
+328d.bootloader.file=optiboot/optiboot_atmega328.hex
+
+# ---------------------------------------------------
+328d.menu.cpu.8MHzatmega328=ATmega328P (RC 8 MHz, >=2.7V)
+328d.menu.cpu.8MHzatmega328.build.f_cpu=8000000L
+
+# ---------------------------------------------------
+328d.menu.cpu.10MHzatmega328=ATmega328P (RC 10 MHz, >=3.0V)
+328d.menu.cpu.10MHzatmega328.build.f_cpu=10000000L
+
+# ---------------------------------------------------
+328d.menu.cpu.12MHzatmega328=ATmega328P (RC 12 MHz, >=3.4V)
+328d.menu.cpu.12MHzatmega328.build.f_cpu=12000000L
+
+# ---------------------------------------------------
+328d.menu.cpu.14MHzatmega328=ATmega328P (RC 14 MHz, >=3.8V)
+328d.menu.cpu.14MHzatmega328.build.f_cpu=14000000L
+
+# ---------------------------------------------------
+328d.menu.cpu.15MHzatmega328=ATmega328P (RC 15 MHz, >=4.0V)
+328d.menu.cpu.15MHzatmega328.build.f_cpu=15000000L
+
+
+# ---------------------------------------------------
+328d.menu.cpu.20MHzatmega328=ATmega328P (20 MHz, 5V)
+328d.menu.cpu.20MHzatmega328.build.f_cpu=20000000L
+328d.menu.cpu.20MHzatmega328.upload.maximum_size=31744
+328d.menu.cpu.20MHzatmega328.upload.speed=115200
+328d.menu.cpu.20MHzatmega328.bootloader.high_fuses=0xDC
+328d.menu.cpu.20MHzatmega328.bootloader.low_fuses=0xFF
+328d.menu.cpu.20MHzatmega328.bootloader.file=optiboot/optiboot_atmega328_20MHz.hex
+
+# ---------------------------------------------------
+328d.menu.cpu.24MHzatmega328=ATmega328P (24 MHz, 5V)
+328d.menu.cpu.24MHzatmega328.build.f_cpu=24000000L
+328d.menu.cpu.24MHzatmega328.upload.maximum_size=31744
+328d.menu.cpu.24MHzatmega328.upload.speed=115200
+328d.menu.cpu.24MHzatmega328.bootloader.high_fuses=0xDC
+328d.menu.cpu.24MHzatmega328.bootloader.low_fuses=0xFF
+328d.menu.cpu.24MHzatmega328.bootloader.file=optiboot/optiboot_atmega328_24MHz.hex
+
+# ---------------------------------------------------
+328d.menu.cpu.25MHzatmega328=ATmega328P (25 MHz, 5V)
+328d.menu.cpu.25MHzatmega328.build.f_cpu=25000000L
+328d.menu.cpu.25MHzatmega328.upload.maximum_size=31744
+328d.menu.cpu.25MHzatmega328.upload.speed=115200
+328d.menu.cpu.25MHzatmega328.bootloader.high_fuses=0xDC
+328d.menu.cpu.25MHzatmega328.bootloader.low_fuses=0xFF
+328d.menu.cpu.25MHzatmega328.bootloader.file=optiboot/optiboot_atmega328_25MHz.hex
+
+##############################################################

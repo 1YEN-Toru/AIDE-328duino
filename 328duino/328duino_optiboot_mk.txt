@@ -1,0 +1,28 @@
+# optiboot make target for 328duino form#1(uno)
+##############################################################
+
+atmega328_20MHz: TARGET = atmega328_20MHz
+atmega328_20MHz: MCU_TARGET = atmega328p
+atmega328_20MHz: CFLAGS += '-DLED_START_FLASHES=3' '-DBAUD_RATE=115200'
+atmega328_20MHz: AVR_FREQ = 20000000L
+atmega328_20MHz: LDSECTIONS = -Wl,--section-start=.text=0x7c00 -Wl,--section-start=.version=0x7ffe
+atmega328_20MHz: $(PROGRAM)_atmega328_20MHz.hex
+atmega328_20MHz: $(PROGRAM)_atmega328_20MHz.lst
+
+atmega328_24MHz: TARGET = atmega328_24MHz
+atmega328_24MHz: MCU_TARGET = atmega328p
+atmega328_24MHz: CFLAGS += '-DLED_START_FLASHES=3' '-DBAUD_RATE=115200'
+atmega328_24MHz: AVR_FREQ = 24000000L
+atmega328_24MHz: LDSECTIONS = -Wl,--section-start=.text=0x7c00 -Wl,--section-start=.version=0x7ffe
+atmega328_24MHz: $(PROGRAM)_atmega328_24MHz.hex
+atmega328_24MHz: $(PROGRAM)_atmega328_24MHz.lst
+
+atmega328_25MHz: TARGET = atmega328_25MHz
+atmega328_25MHz: MCU_TARGET = atmega328p
+atmega328_25MHz: CFLAGS += '-DLED_START_FLASHES=3' '-DBAUD_RATE=115200'
+atmega328_25MHz: AVR_FREQ = 25000000L
+atmega328_25MHz: LDSECTIONS = -Wl,--section-start=.text=0x7c00 -Wl,--section-start=.version=0x7ffe
+atmega328_25MHz: $(PROGRAM)_atmega328_25MHz.hex
+atmega328_25MHz: $(PROGRAM)_atmega328_25MHz.lst
+
+##############################################################

@@ -1,0 +1,2 @@
+# <Arduino IDE>\hardware\arduino\avr\platform.local.txt
+compiler.cpp.extra_flags=-DA328DUINO_EEPCAL=0x000

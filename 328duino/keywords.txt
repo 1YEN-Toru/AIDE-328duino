@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map 328duino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+328duino	KEYWORD1
+A328duino	KEYWORD1
+A328d	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setSysClock	KEYWORD2
+_micros	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+A328dFcpuFactory	LITERAL1
+
+A328dSscRstrFactry	LITERAL1
+A328dSscQueryCur	LITERAL1
+
+A328dErrNo	LITERAL1
+A328dErrNotFound	LITERAL1
+A328dErrGetMem	LITERAL1
+A328dErrBadEepcal	LITERAL1
+
+A328dMicrosErr	LITERAL1
+A328dMicrosErrIden	LITERAL1
+A328dMicrosErrInum	LITERAL1
+A328DUINO_ERR	LITERAL1
